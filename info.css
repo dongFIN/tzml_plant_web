@@ -1,0 +1,147 @@
+#title_fixed{
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+.part{
+    display: flex;
+    
+}
+.info_card{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+    border: 2px solid #acacac;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+.info_card img{
+    /* width: auto;
+    height: auto; */
+    /* max-width: 90%;
+    max-height: 90%; */
+    width: 90%;
+    height: 90%;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+.user_pic{
+    margin:20px 0;
+    border-radius: 99em;
+    background: linear-gradient(135deg, rgb(238, 255, 2) 0%, rgb(110, 212, 106) 120%);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_N{
+    /* height: 50px; */
+    margin: 5px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    border-bottom: 2px solid #acacac;
+    padding: 0;
+    width: 80%;
+    padding: 10px;
+    /* border-radius: 25px; */
+    line-height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.user_N p{
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: 0;
+    
+}
+
+
+.relation_card{
+    width: 100%;
+    margin: 30px 0 0 30px; 
+    /* padding: 25px; */
+    border: 2px solid #acacac;
+    background-color: #fff;
+    font-size: 18px;
+    color: #acacac;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* padding-top: 100px; */
+}
+.relation_rsbp{
+    display: inline-block;
+    width: 300px;
+    height: 280px;
+    padding: 20px;
+    line-height: 32px;
+    text-align: center;
+    box-shadow: 2px 5px 10px; 
+}
+.relation_card img{
+    width: 75%;
+    margin-bottom: 15px;
+}
+.relation_plant{
+    /* display: inline-block; */
+    width: 400px;
+    height: 280px;
+    /* padding: 20px; */
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    box-shadow: 2px 5px 10px; 
+    /* background-image: url("pic/plantpic.png");
+    background-size: 120%;
+    background-repeat: no-repeat; */
+}
+.plant_pic{
+    width: 85%;
+    height: 150px;
+    /* background-image: url("pic/plantpic.png");
+    background-size: 100%; */
+    padding: 30px 8px 0 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    /* position: relative;
+    z-index: -1; */
+
+}
+.plant_title{
+    display: inline-block;
+    font-size: 48px;
+    line-height: 20px;
+    font-weight:bold;
+    margin-top: 0px;
+}
+.plant_pic p{
+    /* position: absolute; */
+    right: 0;
+    font-size: 16px;
+    text-align: left;
+    line-height: 18px;
+    margin: 10px 0 5px 0;
+}
+.plant_setData{
+    width: 85%;
+    /* position: relative; */
+}
+.modify{
+    /* position: absolute; */
+    right: 0;
+    bottom: 1px;
+}
+
+.partner{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 300px;
+    align-items: center;
+    /* display: inline-block; */
+}

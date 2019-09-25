@@ -1,0 +1,118 @@
+#title_fixed{
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+.title_otherPage a{
+    text-decoration: none !important;
+}
+.part{
+    height: 600px;
+    display: flex !important;
+    justify-content: space-around;
+    width: 100%;
+}
+.info{
+    width: 20%;
+    height: 85%;
+}
+.info{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+    border: 2px solid #acacac;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+.info img{
+    /* width: auto;
+    height: auto; */
+    /* max-width: 90%;
+    max-height: 90%; */
+    width: 90%;
+    height: 90%;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+.user_pic{
+    margin:20px 0;
+    border-radius: 99em;
+    background: linear-gradient(135deg, rgb(238, 255, 2) 0%, rgb(110, 212, 106) 120%);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_N{
+    /* height: 50px; */
+    margin: 5px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    border-bottom: 2px solid #acacac;
+    padding: 0;
+    width: 80%;
+    padding: 10px;
+    /* border-radius: 25px; */
+    line-height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.user_N p{
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: 0;
+    
+}
+.data{
+    width: 100%;
+    height: 85%;
+    margin: 30px 0 0 30px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #acacac;
+}
+
+/* top table */
+.top{
+    height: 70px;
+    width: 100%;
+    border: none;
+    display: flex;
+    padding: 10px
+}
+.top_button{
+    border: none; 
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+.db_btn{
+    border: 1px solid #59be57;
+    line-height: 36px;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-right: 30px;
+}
+.unclick{
+    color: #59be57;
+    background-color: white;
+}
+.unclick:hover{
+    color: white;
+    background-color: #59be57;
+    cursor: pointer;
+}
+button:focus {outline:none !important;}
+.click{
+    color: white;
+    background-color: #59be57;
+}
+tbody{
+    /* display: block;  */
+    overflow-y: scroll;
+}
+

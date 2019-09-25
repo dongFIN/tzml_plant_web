@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="app.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Plant Firend</title>
+    
+</head>
+<body>
+    <!-- <div class="alert alert-success" role="alert"> <h4 class="alert-heading">Well done!</h4> You successfully read this important alert message. </div> -->
+    <div id="homeLogo" class="home_background">
+        <!-- <a class="copyright" href="https://pngtree.com/free-backgrounds">free background photos from pngtree.com</a> -->
+        <h2 class="home_title">植物好朋友</h2>
+        <button type="button" class="btn btn-outline-success start">開始體驗</button>
+    </div>
+    <!-- <p>hello world</p> -->
+    <div class="space">
+        <div id="title_fixed">
+            <div class="title_container">
+                <div class="title_otherPage" style="border-left: 2px dashed #00865D;">
+                    <a href="info.html">
+                        <img src="pic/info.png" alt="">
+                        <p>個人資料</p>
+                    </a>
+                </div> 
+                <div class="title_otherPage" style="border-left: 2px dashed #00865D;">
+                    <a href="dbSearch.html">
+                        <img src="pic/loupe.png" alt="">
+                        <p>歷史記錄</p>
+                    </a>
+                </div> 
+                <div class="title_otherPage" style="border-left: 2px dashed #00865D;">
+                    <a href="analysis.html">
+                        <img src="pic/analysis.png" alt="">
+                        <p>作物分析</p>
+                    </a>
+                </div> 
+                <div class="title_logo">
+                    <a href="index.html">
+                        <img src="pic/cactus.png" alt="">
+                    </a>
+                </div>
+                <div class="title_otherPage" style="border-right: 2px dashed #00865D;">
+                    <a href="price.html">
+                        <img src="pic/coin.png" alt="">
+                        <p>市場行情</p>
+                    </a>
+                </div>
+                <div class="title_otherPage" style="border-right: 2px dashed #00865D;">
+                    <a href="price.html">
+                        <img src="pic/coin.png" alt="">
+                        <p>????</p>
+                    </a>
+                </div> 
+                <div class="title_otherPage" style="border-right: 2px dashed #00865D;">
+                    <a href="qa.html">
+                        <img src="pic/conversation.png" alt="">
+                        <p>常見問題</p>
+                    </a>
+                </div> 
+            </div>
+            <div class="actionLine"></div>
+        </div>
+    </div>
+
+    <div class="partContainer">
+        <div class="part a">
+            <div class="featureCard">
+                <img src="pic/travel.png" alt="">
+                <div class="word">123123123123123123123</div>
+            </div>
+            <div class="featureCard">
+                    <img src="pic/travel.png" alt="">
+                    <div class="word">在本系統中採用的是LINE這款通訊軟體，不外乎就是為了貼近台灣使用者的習慣，讓對於科技事物不熟</div>
+            </div>
+            <div class="featureCard">
+                <img src="pic/travel.png" alt="">
+                <div class="word">在本系統中採用的是LINE這款通訊軟體，不外乎就是為了貼近台灣使用者的習慣，讓對於科技事物不熟</div>
+            </div>
+            <div class="featureCard">
+                <img src="pic/travel.png" alt="">
+                <div class="word">在本系統中採用的是LINE這款通訊軟體，不外乎就是為了貼近台灣使用者的習慣，讓對於科技事物不熟</div>
+            </div>
+        </div>
+        <div class="part b" style="border: 2px solid #acacac;">
+            <p style="margin: 50px; text-align: center; font-size: 24px; color: #acacac">步驟圖</p>
+             <!-- 16:9 aspect ratio --> 
+            <!-- <div class= "embed-responsive embed-responsive-16by9" > 
+                <iframe class= "embed-responsive-item" src= "https://www.youtube.com/embed/zpOULjyy-n8?rel=0" >
+                </iframe>      
+            </div> -->
+        </div>
+        <div class="part a">
+            <!-- <div class= "embed-responsive embed-responsive-16by9 video" >  -->
+                    <iframe id="video_play" width="920" height="500" src="https://www.youtube.com/embed/2zSx_CGouy4?rel=0&autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <iframe class= "embed-responsive-item" src= "pic/video.mp4?rel=0&autoplay=0" frameborder="0" muted="false" allowfullscreen ></iframe>  -->
+            <!-- </div> -->
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer_container">
+            <div class="footer_part">123</div>
+            <div class="footer_part">456</div>
+            <div class="footer_part">789</div>
+        </div>
+    </footer>
+    
+</body>
+</html>

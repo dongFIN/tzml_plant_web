@@ -1,0 +1,40 @@
+#title_fixed{
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+.part{
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.qa{
+    width: 75%;
+    height: 100%;
+    border: 3px #acacac solid;
+    margin-top: 15px;
+}
+.qa_title{
+    /* border: 2px solid pink; */
+    width: 25%;
+    display: block;
+    padding: 30px 30px;
+    font-size: 36px;
+    text-align: center;
+    background-color:#acacac;
+}
+.qa_group{
+    width: 75%;
+    background-color: #fff;
+    text-decoration-line: none;
+}
+.card{
+    position: unset;
+}
+.card a{
+    text-decoration-line: none;
+}
+.card-block{
+    padding: 10px 20px;
+}
