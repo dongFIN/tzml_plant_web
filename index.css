@@ -8,9 +8,10 @@
     /* height: 800px; */
     border: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    
     background-image: url("pic/back_1.png");
     background-size: 100%;
 }
@@ -18,7 +19,18 @@
     font-size: 96px;
     margin: 50px 0;
 }
-
+.weatherContainer{
+    width: 40%;
+    background-color: rgba(240,255,240,0.5);
+}
+.homeBtnCtn{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+}
+.start{
+    margin-right: 20px;
+}
 .titleFixed{
     position: fixed; 
     top: 0;

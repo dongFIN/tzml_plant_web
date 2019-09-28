@@ -2,6 +2,7 @@
 var windowH = $(window).height()
 console.log(windowH)
 $("#homeLogo").height(windowH)
+$("#weatherContainer").height(windowH-100)
 
 var startPlay = 0
 //判定是否已滑過一個螢幕高
